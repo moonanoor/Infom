@@ -60,7 +60,8 @@ namespace Task1
             {
                 for (int j = 0; j < 15; j++)
                 {
-                    if (max == mas[i, j]) MessageBox.Show("Индекс максимального " + Convert.ToString(i + 1) + " " + Convert.ToString(j + 1));
+                    if (i < j)
+                        if (max == mas[i, j]) MessageBox.Show("Индекс максимального " + Convert.ToString(i + 1) + " " + Convert.ToString(j + 1));
                 }
             }
         }
