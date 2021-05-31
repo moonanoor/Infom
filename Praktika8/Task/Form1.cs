@@ -60,8 +60,8 @@ namespace Task
             // Добавляем в список графиков диаграммы
             chart.Series.Add(series1);
             // Создаѐм легенду, которая будет показывать названия
-            Legend legend = new Legend();
-            chart.Legends.Add(legend);
+          //  Legend legend = new Legend();
+          //  chart.Legends.Add(legend);
             
             Series series2 = new Series();
             series2.ChartArea = "myGraph";
@@ -69,7 +69,7 @@ namespace Task
             series2.BorderWidth = 3;
             series1.Color = Color.Blue;
             series2.Color = Color.Blue;
-            series2.LegendText = "F(x)";
+          //  series2.LegendText = "";
             // series2.LegendText = "cos(x)";
             chart.Series.Add(series2);
 

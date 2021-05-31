@@ -43,6 +43,7 @@ namespace Task1
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+            this.Text = "Сердце";
             Recount_XY();
             this.Width = this.Width *3;
             this.Height = this.Height * 3;
